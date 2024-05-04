@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  /* moj kod */
+  display: grid;
+  place-items: center;
 }
 
 h1,
@@ -35,4 +38,31 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+/* moj kod */
+
+.content {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 1140px;
+ gap: 30px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content__details {
+flex: 1;
+}
+
+.content__list {
+  /* width: 399px; */
+  height: 298px;
+  overflow: auto;
 }
