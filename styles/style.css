@@ -198,7 +198,6 @@ ol {
   grid-template-columns: min-content;
   grid-template-rows: 210px 298px;
   gap: 26px;
-  min-height: 534px;
 }
 
 .title {
